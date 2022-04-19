@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: grey;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(247, 184, 91);
+  font-family: Roboto;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin: 3rem 15rem;
+  height: fit-content;
+  overflow: hidden;
+}
+.cards {
+  background-color: whitesmoke;
+  height: 26rem;
+  width: 20rem;
+  padding: 2rem;
+}
+.cards:hover {
+  overflow-y: auto;
+}
+.possession {
+  display: flex;
+  column-gap: 7rem;
+  margin-bottom: 2rem;
+}
+.wallets {
+  font-size: large;
+  font-weight: 400;
+  color: rgb(48, 46, 46);
+}
+
+.visa img {
+  height: 2rem;
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+.alpha-numerics {
+  color: slategrey;
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+}
+.validity {
+  color: slategrey;
+  font-size: small;
+}
+.visa {
+  background-color: white;
+  height: 7rem;
+  width: 14rem;
+  border-radius: 0.25rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+.visa:hover {
+  border: 1px solid dodgerblue;
+}
+.mastercard img {
+  height: 3rem;
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+.mastercard {
+  background-color: white;
+  height: 7rem;
+  width: 14rem;
+  margin-top: 2rem;
+  border-radius: 0.25rem;
+  padding-left: 1rem;
+  border: 1px solid dodgerblue;
+}
+.maestro img {
+  height: 3rem;
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+.maestro {
+  background-color: white;
+  height: 7rem;
+  width: 14rem;
+  margin-top: 2rem;
+  border-radius: 0.25rem;
+  padding-left: 1rem;
+}
+.maestro:hover {
+  border: 1px solid dodgerblue;
+}
+.transaction {
+  background-color: white;
+  height: 26rem;
+  width: 40rem;
+  padding: 2rem;
+}
+.transaction:hover {
+  overflow-y: auto;
+}
+
+.total {
+  display: flex;
+  column-gap: 15rem;
+}
+.balance {
+  font-size: larger;
+  font-weight: 200px;
+}
+.figures {
+  font-weight: 900;
+  font-size: x-large;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: slategrey;
+  margin-top: 3rem;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.circle {
+  display: flex;
+  column-gap: 3rem;
+  align-items: center;
+}
+.minus {
+  border: 1px solid rgb(165, 157, 157);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: white;
+}
+
+.bold1 {
+  font-weight: bold;
+}
+.faint1 {
+  font-size: small;
+  margin-top: 3px;
+  color: slategray;
+}
+.sixfifty {
+  color: rgb(51, 126, 224);
+  font-weight: 900;
+}
+.iPhone {
+  display: flex;
+  flex-direction: column;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.plus {
+  border: 1px solid rgb(165, 157, 157);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: white;
+}
+.funds {
+  display: flex;
+  flex-direction: column;
+}
+.ninehundred {
+  color: rgb(121, 233, 111);
+  font-weight: 900;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.Energy {
+  display: flex;
+  flex-direction: column;
+}
+.eightfour {
+  color: rgb(51, 126, 224);
+  font-weight: 900;
+}
+.fourth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.Eye {
+  display: flex;
+  flex-direction: column;
+}
+.forty {
+  color: rgb(51, 126, 224);
+  font-weight: 900;
+}
+.fifth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.Mc {
+  display: flex;
+  flex-direction: column;
+}
+
+.ten {
+  color: rgb(51, 126, 224);
+  font-weight: 900;
+}
+.sixth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.Gas {
+  display: flex;
+  flex-direction: column;
+}
+.thirty {
+  color: rgb(51, 126, 224);
+  font-weight: 900;
+}
